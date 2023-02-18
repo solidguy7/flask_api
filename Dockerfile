@@ -6,4 +6,4 @@ RUN pip install -U pip
 COPY requirements.txt /code/
 RUN pip install -r requirements.txt
 COPY . /code/
-CMD ["python3", "app/app.py"]
+CMD ["python3", "api/app.py"]
